@@ -1,7 +1,7 @@
 # 🎮 Solo Leveling Rich Presence
 
-[![License](https://img.shields.io/github/license/yourusername/SoloLvRPC)](LICENSE)
-[![Version](https://img.shields.io/github/v/release/yourusername/SoloLvRPC)](https://github.com/Zaxerone/SoloLvRPC/releases)
+[![License](https://img.shields.io/github/license/Zaxerone/SoloLvRPC)](LICENSE)
+[![Version](https://img.shields.io/github/v/release/Zaxerone/SoloLvRPC)](https://github.com/Zaxerone/sololvrpc/releases)
 
 A sleek Discord Rich Presence application that enhances your Solo Leveling ARISE gaming experience by displaying your game status directly on your Discord profile.
 
