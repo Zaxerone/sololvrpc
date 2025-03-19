@@ -37,6 +37,11 @@ A sleek Discord Rich Presence application that enhances your Solo Leveling ARISE
    - Restart Rich Presence
    - Exit the application
 
+<picture>
+<img src="https://github.com/user-attachments/assets/a7460c1a-7edf-49e6-872e-bb0476e256db">
+</picture>
+<br>
+
 ## 🛠️ Development
 
 ### Building from Source
@@ -85,10 +90,6 @@ The executable will be generated in the `dist` directory.
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
