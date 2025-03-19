@@ -1,43 +1,100 @@
-# Solo Leveling Rich Presence
+# 🎮 Solo Leveling Rich Presence
 
-A Discord Rich Presence application for Solo Leveling ARISE.
+[![License](https://img.shields.io/github/license/yourusername/SoloLvRPC)](LICENSE)
+[![Version](https://img.shields.io/github/v/release/yourusername/SoloLvRPC)](https://github.com/Zaxerone/SoloLvRPC/releases)
 
-## Features
+A sleek Discord Rich Presence application that enhances your Solo Leveling ARISE gaming experience by displaying your game status directly on your Discord profile.
 
-- Automatic game process detection
-- Discord Rich Presence integration
-- System tray interface
-- Auto-start on Windows boot
-- Toggle auto-start from system tray
-- Minimized to system tray
+## ✨ Features
 
-## Building
+- 🎯 **Automatic Game Detection**: Seamlessly detects when Solo Leveling ARISE is running
+- 🎨 **Rich Discord Integration**: Beautiful status display showing your current game activity
+- 🖥️ **System Tray Interface**: Easy access to controls and settings
+- 🔄 **Auto-Start Option**: Automatically launches with Windows
+- ⚙️ **Customizable Settings**: Toggle auto-start and other preferences from the system tray
+- 🔽 **Minimized to Tray**: Runs efficiently in the background
 
-To create an executable:
+## 🚀 Getting Started
 
-```bash
-pnpm run build
-```
+### Prerequisites
 
-The executable will be created in the `dist` directory.
+- Windows 10 or higher
+- Discord desktop application
+- Node.js (for development)
 
-## Usage
+### Installation
 
-1. Run the application
-2. The application will appear in your system tray
-3. Right-click the tray icon to:
+1. Download the latest release from the [releases page](https://github.com/Zaxerone/SoloLvRPC/releases)
+2. Extract the archive to your desired location
+3. Run the executable
+
+### Usage
+
+1. Launch the application
+2. Look for the icon in your system tray
+3. Right-click the tray icon to access options:
    - Toggle auto-start
+   - Restart Rich Presence
    - Exit the application
 
-## Development
+## 🛠️ Development
 
-To run the application in development mode:
+### Building from Source
 
 ```bash
-pnpm start
+# Clone the repository
+git clone https://github.com/Zaxerone/sololvrpc.git
+cd sololvrpc
+
+# Install dependencies
+npm install
+
+# Build the application
+npm run build
 ```
 
-## Notes
+### Development Mode
 
-- Make sure Discord is running before starting this application
+```bash
+npm run start
+```
+
+### Clean Build
+
+When creating a new build, it's recommended to clean the project first:
+
+```bash
+# Remove existing build files and dependencies
+rm -rf node_modules/ dist/ package-lock.json
+
+# Reinstall dependencies
+npm install
+
+# Build the application
+npm run build
+```
+
+The executable will be generated in the `dist` directory.
+
+## 📝 Notes
+
+- Ensure Discord is running before starting this application
 - Auto-start is enabled by default but can be toggled from the system tray
+- The application requires administrator privileges for auto-start functionality
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- Discord for their Rich Presence API
+- The Solo Leveling ARISE development team
+
+---
+
+Made with ❤️ by Zaxerone
