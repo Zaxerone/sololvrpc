@@ -1,4 +1,4 @@
-# 🎮 Solo Leveling Rich Presence
+# 🎮 Solo Leveling Rich ARISE Rich Presence
 
 [![License](https://img.shields.io/github/license/Zaxerone/SoloLvRPC?kill_cache=1)](LICENSE)
 [![Version](https://img.shields.io/github/release/Zaxerone/SoloLvRPC)](https://github.com/Zaxerone/sololvrpc/releases)
